@@ -477,6 +477,11 @@ function displayQuestion() {
   //  } else {
   //      prevButton.style.display = 'inline';
  //   }
+    if (currentQuestionIndex === 0) {
+    prevButton.disabled = true;  // Disable the button on the first question
+} else {
+    prevButton.disabled = false; // Enable it on other questions
+    }
 
     // Replace "Next" button with "Submit" on the last question
     const nextButton = document.getElementById('next-question');
