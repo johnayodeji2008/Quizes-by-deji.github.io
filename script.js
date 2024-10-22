@@ -472,11 +472,11 @@ function displayQuestion() {
 
     // Hide "Previous" button on the first question
     const prevButton = document.getElementById('prev-question');
-    if (currentQuestionIndex === 0) {
-        prevButton.style.display = 'none';
-    } else {
-        prevButton.style.display = 'inline';
-    }
+    //if (currentQuestionIndex === 0) {
+    //    prevButton.style.display = 'none';
+  //  } else {
+  //      prevButton.style.display = 'inline';
+ //   }
 
     // Replace "Next" button with "Submit" on the last question
     const nextButton = document.getElementById('next-question');
