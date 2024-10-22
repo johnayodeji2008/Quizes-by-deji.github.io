@@ -548,7 +548,6 @@ function submitQuiz() {
         } else {
             correctAnswersDiv.innerHTML += `<p>${index + 1}. ${q.question}<br>Correct answer: ${q.options[q.correctAnswer]}</p>`;
         }
-        sendQuizDataToTelegram();
     });
 
     document.getElementById('score').innerText = `You scored ${score} out of ${selectedQuestions.length}`;
