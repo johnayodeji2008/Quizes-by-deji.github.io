@@ -45,7 +45,6 @@ button:hover {
 }
 
 #subject {
-    width: 40vh;
     border: 2px solid #1db954;
     border-radius: 5px;
 }
