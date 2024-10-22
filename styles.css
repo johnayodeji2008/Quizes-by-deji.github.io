@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 20px;
     transition: 0.5s ease-in-out;
+    justify-content: space-between;
 }
 
 .container {
@@ -43,4 +44,22 @@ button:hover {
     transition: 0.5s ease-in-out;
 }
 
+#subject {
+    width: 40vh;
+    border: 2px solid #1db954;
+    border-radius: 5px;
+}
 
+#star {
+    margin-top: 5vh;
+    margin-left: 16vh;
+}
+
+#quiz-settings {
+    justify-content: space-between;
+}
+
+input {
+    border: 2px solid #1db954;
+    border-radius: 5px;
+}
