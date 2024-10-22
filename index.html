@@ -8,18 +8,41 @@
 </head>
 <body>
     <div class="container">
-        <h1>Adventist Heritage Quiz by Deji</h1>
+        <h1>Quiz by Deji</h1>
+
+        <div id="timer-container" class="hidden">
+            <p id="timer">Time left: --:--</p>
+        </div>
+
         <div id="quiz-settings">
-            <label for="num-questions">Select the number of questions:</label>
-            <input type="number" id="num-questions" min="1" max="10" value="5">
-            <button onclick="startQuiz()">Start Quiz</button>
+            <label for="subject">Select Subject:</label>
+            <select id="subject">
+                <option value="adventist-heritage">Adventist Heritage</option>
+                <option value="ent">Entrepreneurship and innovation</option>
+                <option value="agric">Agriculture</option>
+                <option value="cos209">Innovation in web technology</option>
+            </select><br>
+            <hr>
+            
+            <label for="num-questions">Select the number of questions:</label><br>
+            <input type="number" id="num-questions" min="1" max="10" value="5"><br>
+            <hr>
+            <label for="quiz-time">Set time (in minutes, 0 for no timer):</label><br>
+            <input type="number" id="quiz-time" min="0" value="5"><br>
+            
+            <button onclick="startQuiz()" id="star">Start Quiz</button>
         </div>
-       
+
+        <div id="quiz-navigation" class="hidden">
+            <p id="question-numbers"></p>
+        </div>
+
         <div id="quiz-container" class="hidden">
-            <div id="quiz-questions"></div>
-            <button onclick="submitQuiz()">Submit Quiz</button>
+            <div id="quiz-question"></div>
+            <button id="prev-question" onclick="prevQuestion()" disabled>Previous</button>
+            <button id="next-question" onclick="nextQuestion()">Next</button>
         </div>
-       
+
         <div id="quiz-results" class="hidden">
             <h2>Your Results</h2>
             <p id="score"></p>
