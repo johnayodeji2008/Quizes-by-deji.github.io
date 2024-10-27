@@ -406,32 +406,477 @@ const allQuestions = {
         // Add more Adventist Heritage questions...
     ],
 
-
-
-    'agric':[
-    {
-            question: "THERE IS NO QUESTION AVAILABLE FOR THIS COURSE AT THE MOMENT, WE WILL FIX THIS SOON",
-            options: [],
-            correctAnswer: 0
-        },
-],
-
-    
-
-    'ent': [
-        {
-            question: "THERE IS NO QUESTION AVAILABLE FOR THIS COURSE AT THE MOMENT, WE WILL FIX THIS SOON",
-            options: [],
-            correctAnswer: 0
-        },
-    ],
-
     'cos209':[
-        {
-            question: "THERE IS NO QUESTION AVAILABLE FOR THIS COURSE AT THE MOMENT, WE WILL FIX THIS SOON",
-            options: [],
-            correctAnswer: 0
-        }
+    {
+        question: "What is the primary role of backend development?",
+        options: ["Designing UI/UX", "Managing databases and server logic", "Writing HTML and CSS", "Testing applications"],
+        correctAnswer: 1
+    },
+    {
+        question: "Which programming language is commonly used for backend development in Node.js?",
+        options: ["Python", "Ruby", "JavaScript", "HTML"],
+        correctAnswer: 2
+    },
+    {
+        question: "Which platform allows JavaScript to be used as a server-side language?",
+        options: ["Apache", "Ruby on Rails", "Node.js", "PHP"],
+        correctAnswer: 2
+    },
+    {
+        question: "What tool is used to manage packages in a Node.js environment?",
+        options: ["Pip", "Yarn", "Composer", "NPM (Node Package Manager)"],
+        correctAnswer: 3
+    },
+    {
+        question: "What is package.json used for in Node.js?",
+        options: ["Storing HTML files", "Defining app dependencies and scripts", "Configuring the server", "Creating routes"],
+        correctAnswer: 1
+    },
+    {
+        question: "What command initializes a new Node.js project?",
+        options: ["node init", "npm start", "npm init", "init project"],
+        correctAnswer: 2
+    },
+    {
+        question: "Which type of database is commonly used with Node.js?",
+        options: ["MySQL", "MongoDB", "PostgreSQL", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "What command installs Express.js in a Node project?",
+        options: ["npm install -g express", "npm add express", "npm install express", "node install express"],
+        correctAnswer: 2
+    },
+    {
+        question: "Which keyword is used to define a module in Node.js?",
+        options: ["include", "import", "require", "define"],
+        correctAnswer: 2
+    },
+    {
+        question: "What is an API in backend development?",
+        options: ["Application Performance Indicator", "Application Programming Interface", "Active Product Indicator", "Application Programming Implementation"],
+        correctAnswer: 1
+    },
+    {
+        question: "What type of architecture is most common in backend development?",
+        options: ["MVC (Model-View-Controller)", "Monolithic", "Service-oriented", "All of the above"],
+        correctAnswer: 3
+    },
+    {
+        question: "Which protocol is primarily used for web communication in backend development?",
+        options: ["FTP", "HTTP", "SMTP", "SNMP"],
+        correctAnswer: 1
+    },
+    {
+        question: "What is REST?",
+        options: ["A type of API architecture", "A protocol", "A programming language", "A database"],
+        correctAnswer: 0
+    },
+    {
+        question: "In REST, what does CRUD stand for?",
+        options: ["Create, Read, Update, Delete", "Copy, Retrieve, Undo, Delete", "Create, Review, Update, Display", "Copy, Retrieve, Upload, Download"],
+        correctAnswer: 0
+    },
+    {
+        question: "Which Node.js module is commonly used for handling file system operations?",
+        options: ["path", "http", "fs", "os"],
+        correctAnswer: 2
+    },
+    {
+        question: "What type of database is MongoDB?",
+        options: ["SQL-based", "Relational", "NoSQL", "Hierarchical"],
+        correctAnswer: 2
+    },
+    {
+        question: "What does the fs.readFile function do in Node.js?",
+        options: ["Reads a file", "Deletes a file", "Creates a file", "Updates a file"],
+        correctAnswer: 0
+    },
+    {
+        question: "Which command runs a Node.js application?",
+        options: ["npm start", "node app.js", "npm run", "start app.js"],
+        correctAnswer: 1
+    },
+    {
+        question: "Which HTTP method is used to retrieve data from a server?",
+        options: ["POST", "PUT", "GET", "DELETE"],
+        correctAnswer: 2
+    },
+    {
+        question: "Which HTTP method is used to submit data to a server?",
+        options: ["GET", "PUT", "DELETE", "POST"],
+        correctAnswer: 3
+    },
+    {
+        question: "What is middleware in Express.js?",
+        options: ["A type of database", "A function that processes requests", "A core module", "A library for connecting to APIs"],
+        correctAnswer: 1
+    },
+    {
+        question: "What command uninstalls a package in NPM?",
+        options: ["npm remove package", "npm uninstall package", "npm delete package", "npm discard package"],
+        correctAnswer: 1
+    },
+    {
+        question: "What does REST stand for in backend development?",
+        options: ["Reliable Execution Standards", "Representational State Transfer", "Recursive Service Technology", "Rapid Service Transfer"],
+        correctAnswer: 1
+    },
+    {
+        question: "Which status code represents “Not Found” in HTTP?",
+        options: ["500", "401", "200", "404"],
+        correctAnswer: 3
+    },
+    {
+        question: "Which module in Node.js is used for creating HTTP servers?",
+        options: ["path", "os", "http", "dns"],
+        correctAnswer: 2
+    },
+    {
+        question: "What does JSON stand for?",
+        options: ["JavaScript Object Notation", "Java System Operation Network", "Java Scripting Oriented Notation", "Java Standard Open Network"],
+        correctAnswer: 0
+    },
+    {
+        question: "What is a popular ORM for Node.js used with MongoDB?",
+        options: ["Sequelize", "TypeORM", "Mongoose", "Doctrine"],
+        correctAnswer: 2
+    },
+    {
+        question: "What does the path.join() method do in Node.js?",
+        options: ["Joins two files", "Joins two directories", "Joins path segments", "Deletes a file"],
+        correctAnswer: 2
+    },
+    {
+        question: "What does npm update do?",
+        options: ["Removes outdated packages", "Updates all dependencies", "Restarts the server", "Uninstalls the packages"],
+        correctAnswer: 1
+    },
+    {
+        question: "Which module provides tools to create and work with directories in Node.js?",
+        options: ["os", "path", "fs", "http"],
+        correctAnswer: 2
+    },
+    {
+        question: "What is the role of an API in backend development?",
+        options: ["To create front-end designs", "To allow communication between software systems", "To handle file storage", "To build databases"],
+        correctAnswer: 1
+    },
+    {
+        question: "Which database operation does the PUT HTTP method usually represent?",
+        options: ["Create", "Update", "Delete", "Read"],
+        correctAnswer: 1
+    },
+    {
+        question: "What does the os module in Node.js do?",
+        options: ["Handles HTTP requests", "Manages database connections", "Provides information about the OS", "Manages middleware"],
+        correctAnswer: 2
+    },
+    {
+        question: "What does the npm install command do?",
+        options: ["Installs Node.js", "Installs NPM", "Installs packages", "Runs the application"],
+        correctAnswer: 2
+    },
+    {
+        question: "What is Express.js primarily used for?",
+        options: ["Running SQL queries", "Handling asynchronous operations", "Simplifying server and routing setup", "Accessing the file system"],
+        correctAnswer: 2
+    },
+    {
+        question: "What is a REST API?",
+        options: ["A frontend library", "A way to build APIs using REST principles", "A programming language", "A database"],
+        correctAnswer: 1
+    },
+    {
+        "question": "What keyword is used to define variables in JavaScript?",
+        "options": ["let", "const", "var", "define"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of these is a global object in JavaScript often used for debugging?",
+        "options": ["document", "console", "window", "function"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "In JavaScript, what does console.log(foo) output when var foo = 123;?",
+        "options": ["0", "123", "foo", "undefined"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which operation would output 0.6 if foo = 3 and bar = 5?",
+        "options": ["foo + bar", "foo / bar", "foo * bar", "foo - bar"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the remainder when var foo = 3; foo % 2; is executed?",
+        "options": ["0", "1", "2", "3"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What are the two literals defined for Boolean values?",
+        "options": ["yes, no", "on, off", "1, 0", "true, false"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does console.log(true && false); return?",
+        "options": ["true", "false", "undefined", "error"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How is an empty array defined in JavaScript?",
+        "options": ["var foo = {}", "var foo = []", "var foo = ()", "var foo = ''"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does foo.unshift(2); do in an array?",
+        "options": ["Removes the last item", "Adds 2 to the beginning", "Adds 2 to the end", "Removes the first item"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What will console.log(foo[0]); output if foo = [2, 1];?",
+        "options": ["1", "2", "undefined", "0"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you define an object literal in JavaScript?",
+        "options": ["var foo = []", "var foo = { bar: 123 }", "var foo = ()", "var foo = ''"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "In JavaScript, what is an object literal?",
+        "options": ["A data type", "A way to define properties upfront", "A reserved keyword", "A loop method"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does console.log(foo.bar); output if var foo = { bar: 123 };?",
+        "options": ["123", "foo", "bar", "undefined"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "How would you nest objects in JavaScript?",
+        "options": ["var foo = { bar: { baz: 123 } }", "var foo = []", "var foo = ()", "var foo = 'bar'"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "How are arrays inside objects accessed?",
+        "options": ["foo.bar", "foo[0]", "foo[0].bar", "foo.bas[0]"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is a function in JavaScript?",
+        "options": ["A global variable", "A method for processing", "An object", "A block of code designed to perform a task"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you define a function in JavaScript?",
+        "options": ["functionName();", "function functionName() {}", "let functionName = {}", "var functionName = ()"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does function foo() { return 123; } output when foo() is called?",
+        "options": ["123", "foo", "undefined", "error"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What type of function is executed immediately after being defined?",
+        "options": ["Callback", "Named function", "Anonymous function", "Immediately Invoked Function Expression (IIFE)"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you assign an anonymous function to a variable in JavaScript?",
+        "options": ["function foo() {}", "var foo = function() {}", "let foo", "foo = function namedFunction() {}"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What defines a programming language as having first-class functions?",
+        "options": ["Functions can be stored in variables", "Functions cannot be passed", "Variables are read-only", "Variables must be declared globally"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is a higher-order function in JavaScript?",
+        "options": ["A function that accepts other functions as arguments", "A method for sorting arrays", "A function returning the current time", "An automatically executed function"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is a common higher-order function in JavaScript?",
+        "options": ["alert()", "setTimeout()", "prompt()", "return()"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What feature allows a nested function to access variables from its parent function in JavaScript?",
+        "options": ["Hoisting", "Callback", "Closure", "Looping"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Node.js is primarily focused on creating what type of applications?",
+        "options": ["Mobile apps", "Desktop software", "Highly performant web applications", "Game development"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the I/O scaling problem in Node.js?",
+        "options": ["Lack of multi-threading", "Slowness of CPU access", "The performance hit from handling multiple network connections", "Inability to handle HTTP requests"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which access method is fastest for data in terms of CPU cycles?",
+        "options": ["Disk", "RAM", "Network", "Database"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Why are traditional web servers not suitable for high performance in Node.js?",
+        "options": ["They are based on spinning new processes per request", "They do not support HTTP", "They lack database support", "They require RAM caching"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What type of server is more efficient than traditional servers?",
+        "options": ["Process-based", "Single-threaded", "Multi-threaded", "Thread pool-based"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What benefits does using a thread pool offer over processes?",
+        "options": ["Less memory usage and faster response time", "Improved graphical performance", "Increased number of processes", "Reduced disk space"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is a module in Node.js?",
+        "options": ["A type of server", "A reusable block of code", "A core function", "A database model"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What type of module does Node.js treat JavaScript files as by default?",
+        "options": ["ES modules", "JSON modules", "CommonJS modules", "ECMAScript modules"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "How many types of modules does Node.js have?",
+        "options": ["2", "3", "4", "5"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which of these is a Node.js core module?",
+        "options": ["Mongoose", "Lodash", "fs (file system)", "React"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What function is used to load core modules in Node.js?",
+        "options": ["import()", "load()", "include()", "require()"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What will require('module_name') return?",
+        "options": ["Always an object", "An object, function, or property", "A string", "A number"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What are local modules in Node.js?",
+        "options": ["Built-in modules", "Modules created locally in the app", "Modules downloaded via NPM", "Modules provided by Node.js by default"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What should be specified in require() when importing a local module?",
+        "options": ["Module name", "File path", "URL", "JSON data"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What object is used to expose functions or variables as a module in Node.js?",
+        "options": ["exports", "module.exports", "module.imports", "module"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which command installs a package globally using NPM?",
+        "options": ["npm install package", "npm install -g package", "npm add package", "npm install package -global"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What folder is created to store installed Node modules?",
+        "options": ["modules", "package_modules", "node_modules", "core_modules"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which module type is available online and downloaded using NPM?",
+        "options": ["Core modules", "Third-party modules", "Local modules", "ECMAScript modules"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does module.exports refer to in a Node.js file?",
+        "options": ["A core Node.js function", "The current module", "The main function", "A global object"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does npm install express do?",
+        "options": ["Installs Express.js globally", "Installs Express.js locally", "Updates Express.js", "Removes Express.js"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which command is used to initialize a new Node.js project?",
+        "options": ["node init", "npm start", "npm init", "npm create"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of the following is NOT a core module in Node.js?",
+        "options": ["http", "path", "express", "fs"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "How can you access a function from a third-party module in Node.js?",
+        "options": ["Import the module using require()", "Copy the module code manually", "Use a special syntax to call the function directly", "Write the function manually in your code"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does the ‘fs’ module stand for in Node.js?",
+        "options": ["File system", "Function source", "Fast storage", "File sync"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does module.exports = logObject; do?",
+        "options": ["Replaces the current module with logObject", "Exports logObject as the module", "Deletes the module", "Duplicates logObject"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What keyword is used to define Node.js modules?",
+        "options": ["define", "require", "module", "import"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the main purpose of the require() function?",
+        "options": ["To define variables", "To load modules", "To create objects", "To loop through arrays"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does module.exports expose when assigned a function?",
+        "options": ["A number", "A JSON object", "A function", "A string"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which command is used to install multiple packages at once with NPM?",
+        "options": ["npm install package1 package2", "npm -g package1 package2", "npm add package1 package2", "npm install –all package1 package2"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What symbol is used to denote the root folder in require()?",
+        "options": ["/", "~", ".", "!"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the Node Package Manager used for?",
+        "options": ["Managing OS-level dependencies", "Compiling Node.js code", "Managing and installing packages", "Running JavaScript in the browser"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What folder does npm install create by default?",
+        "options": ["package_modules", "core_modules", "app_modules", "node_modules"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the path module used for in Node.js?",
+        "options": ["To access URLs", "To handle file paths", "To create databases", "To set up routers"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which module can handle HTTP requests in Node.js?",
+        "options": ["fs", "http", "path", "query"],
+        "correctAnswer": 1
+    }
     ]
     // Add more subjects and their questions here
 };
