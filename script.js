@@ -877,7 +877,7 @@ const allQuestions = {
         "options": ["fs", "http", "path", "query"],
         "correctAnswer": 1
     }
-    ]
+    ],
 
     'ift212': [
         {
