@@ -16,7 +16,7 @@
 
         <div id="quiz-settings">
             <label for="subject">Select Subject:</label>
-            <select id="subject">
+            <select id="subject" required>
                 <option> -- : -- </option>
                 <option value="adventist-heritage">Adventist Heritage</option>
                 <option value="cos209">COS209 Innovation in web technology</option>
@@ -25,11 +25,12 @@
             <hr>
             
             <label for="num-questions">Select the number of questions:</label><br>
-            <input type="number" id="num-questions" min="1" max="10" value="5"><br>
+            <input type="number" id="num-questions" min="5" max="10" value="5"><br>
             <hr>
             <label for="quiz-time">Set time (in minutes, 0 for no timer):</label><br>
             <input type="number" id="quiz-time" min="0" value="5"><br>
-            
+
+            <p>PS : once you start the quiz you can not refresh the page</p>
             <button onclick="startQuiz()" id="star">Start Quiz</button>
         </div>
 
@@ -46,6 +47,7 @@
         <div id="quiz-results" class="hidden">
             <h2>Your Results</h2>
             <p id="score"></p>
+            <h2>Incorrect Answers</h2>
             <div id="correct-answers"></div>
             <button onclick="restartQuiz()">Restart Quiz</button>
         </div>
