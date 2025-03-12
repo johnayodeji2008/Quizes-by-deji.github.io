@@ -878,6 +878,669 @@ const allQuestions = {
         "correctAnswer": 1
     }
     ]
+
+    'ift212': [
+        {
+        "question": "What is computer organization mainly concerned with?",
+        "options": [
+            "The software structure of a computer",
+            "The operational units and their interconnections",
+            "The design of application software",
+            "The execution of high-level programming languages"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does computer architecture focus on?",
+        "options": [
+            "The internal wiring of a computer system",
+            "The attributes visible to a machine language programmer",
+            "The shape and size of a computer",
+            "The graphical interface of an operating system"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A computer is an electronic device that:",
+        "options": [
+            "Accepts input, processes it, and produces output",
+            "Stores only textual data",
+            "Can function without memory",
+            "Only runs software without hardware"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What was the first general-purpose electronic computer?",
+        "options": [
+            "IBM 360",
+            "UNIVAC",
+            "ENIAC",
+            "Harvard Mark I"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Where was ENIAC developed?",
+        "options": [
+            "Harvard University",
+            "MIT",
+            "University of Pennsylvania",
+            "Stanford University"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Who proposed the stored-program concept?",
+        "options": [
+            "John von Neumann",
+            "Alan Turing",
+            "Charles Babbage",
+            "John Mauchly"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which computer was the first to implement the stored-program concept?",
+        "options": [
+            "ENIAC",
+            "EDVAC",
+            "IBM 701",
+            "PDP-11"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which architecture uses a single memory for both data and instructions?",
+        "options": [
+            "Harvard Architecture",
+            "Von Neumann Architecture",
+            "RISC Architecture",
+            "CISC Architecture"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which architecture provides separate memory for instructions and data?",
+        "options": [
+            "Harvard Architecture",
+            "Von Neumann Architecture",
+            "Hybrid Architecture",
+            "Pipelined Architecture"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is an advantage of Harvard architecture?",
+        "options": [
+            "Faster processing due to separate instruction and data memory",
+            "Requires less hardware complexity",
+            "Uses a single memory pathway",
+            "Uses traditional sequential execution"
+        ],
+        "correctAnswer": 0
+    },
+        {
+        "question": "What are the three main components of a CPU?",
+        "options": [
+            "Monitor, Keyboard, Mouse",
+            "Control Unit, ALU, Registers",
+            "RAM, ROM, SSD",
+            "Data Bus, Address Bus, Control Bus"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the ALU (Arithmetic Logic Unit) do?",
+        "options": [
+            "Stores data permanently",
+            "Controls the flow of instructions",
+            "Performs arithmetic and logical operations",
+            "Handles I/O operations"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which component fetches, decodes, and executes instructions?",
+        "options": [
+            "ALU",
+            "Control Unit",
+            "Memory Unit",
+            "Cache Memory"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which register holds the address of the next instruction to be executed?",
+        "options": [
+            "Accumulator",
+            "Instruction Register",
+            "Program Counter",
+            "Memory Address Register"
+        ],
+        "correctAnswer": 2
+    },
+        {
+        "question": "What is the function of registers in a CPU?",
+        "options": [
+            "Store permanent files",
+            "Hold frequently used data for fast processing",
+            "Transfer data over a network",
+            "Manage external devices"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which register stores the memory address of the next instruction?",
+        "options": [
+            "Memory Address Register",
+            "Accumulator",
+            "Program Counter",
+            "Data Register"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which type of memory is volatile?",
+        "options": [
+            "ROM",
+            "RAM",
+            "Hard Disk",
+            "Flash Memory"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which memory type is non-volatile?",
+        "options": [
+            "RAM",
+            "Register",
+            "ROM",
+            "Cache"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is an interrupt?",
+        "options": [
+            "A signal that informs the CPU of an urgent task",
+            "A part of the instruction cycle",
+            "A method to increase RAM storage",
+            "A type of I/O device"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the purpose of an I/O buffer?",
+        "options": [
+            "To temporarily store data during transfer between a device and memory",
+            "To increase the CPU clock speed",
+            "To permanently store system instructions",
+            "To transfer data between computers"
+        ],
+        "correctAnswer": 0
+    },
+     {
+        "question": "What does ISA stand for?",
+        "options": [
+            "Integrated Software Application",
+            "Instruction Set Architecture",
+            "Information System Algorithm",
+            "Internal Storage Access"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the purpose of an ISA?",
+        "options": [
+            "It defines how the CPU executes instructions and interacts with memory",
+            "It determines the physical size of a computer",
+            "It controls external input devices",
+            "It speeds up the hard drive"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is NOT a component of an ISA?",
+        "options": [
+            "Instruction formats",
+            "Registers",
+            "Data types",
+            "Web browser settings"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does RISC stand for?",
+        "options": [
+            "Reduced Instruction Set Computing",
+            "Random Instruction Storage Code",
+            "Recursive Instruction System Compiler",
+            "Read-Only Instruction Set Computing"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the key characteristic of RISC?",
+        "options": [
+            "Simple instructions that execute in a single clock cycle",
+            "Complex instructions requiring multiple cycles",
+            "Uses many addressing modes",
+            "Focuses on software-level execution"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does CISC stand for?",
+        "options": [
+            "Complex Instruction Set Computing",
+            "Computer Integrated Storage Code",
+            "Central Instruction System Control",
+            "Custom Instruction Set Computing"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is a disadvantage of CISC?",
+        "options": [
+            "It requires fewer instructions",
+            "It is optimized for high-speed execution",
+            "It consumes more power and has complex decoding",
+            "It lacks general-purpose registers"
+        ],
+        "correctAnswer": 2
+    },
+     {
+        "question": "What does RISC stand for?",
+        "options": [
+            "Reduced Instruction Set Computing",
+            "Random Instruction Storage Code",
+            "Recursive Instruction System Compiler",
+            "Read-Only Instruction Set Computing"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the key characteristic of RISC?",
+        "options": [
+            "Simple instructions that execute in a single clock cycle",
+            "Complex instructions requiring multiple cycles",
+            "Uses many addressing modes",
+            "Focuses on software-level execution"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does CISC stand for?",
+        "options": [
+            "Complex Instruction Set Computing",
+            "Computer Integrated Storage Code",
+            "Central Instruction System Control",
+            "Custom Instruction Set Computing"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is a disadvantage of CISC?",
+        "options": [
+            "It requires fewer instructions",
+            "It is optimized for high-speed execution",
+            "It consumes more power and has complex decoding",
+            "It lacks general-purpose registers"
+        ],
+        "correctAnswer": 2
+    },
+     {
+        "question": "What is the function of the data path in a CPU?",
+        "options": [
+            "Handles arithmetic operations and data movement",
+            "Manages software execution",
+            "Controls I/O devices",
+            "Stores executable programs"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What are the two main types of control units?",
+        "options": [
+            "Hardwired and microprogrammed",
+            "Hardware and software-based",
+            "Linear and parallel",
+            "Internal and external"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is NOT part of the data path?",
+        "options": [
+            "ALU",
+            "Registers",
+            "Memory Bus",
+            "File System"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "A stack operates in which order?",
+        "options": [
+            "FIFO (First-In, First-Out)",
+            "LIFO (Last-In, First-Out)",
+            "Random Order",
+            "Parallel Processing"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which instruction is used to add data to a stack?",
+        "options": [
+            "PUSH",
+            "POP",
+            "STORE",
+            "FETCH"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which register keeps track of the top of the stack?",
+        "options": [
+            "Stack Pointer",
+            "Program Counter",
+            "Instruction Register",
+            "Data Register"
+        ],
+        "correctAnswer": 0
+    },
+     {
+        "question": "Which of the following is NOT an interrupt type?",
+        "options": [
+            "Hardware",
+            "Software",
+            "Internal",
+            "Optical"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which device manages interrupt requests?",
+        "options": [
+            "CPU",
+            "Memory Controller",
+            "Interrupt Controller",
+            "GPU"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which type of memory is the fastest?",
+        "options": [
+            "Cache Memory",
+            "RAM",
+            "Hard Disk",
+            "Optical Disk"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the purpose of virtual memory?",
+        "options": [
+            "To expand RAM using disk storage",
+            "To store permanent files",
+            "To replace cache memory",
+            "To speed up CPU execution"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is an example of an input device?",
+        "options": [
+            "Printer",
+            "Hard Drive",
+            "Keyboard",
+            "Monitor"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is an example of an output device?",
+        "options": [
+            "Mouse",
+            "Printer",
+            "Microphone",
+            "Joystick"
+        ],
+        "correctAnswer": 1
+    },
+     {
+        "question": "What is microarchitecture?",
+        "options": [
+            "The implementation of an ISA inside a CPU",
+            "The design of a motherboard",
+            "The graphical interface of a system",
+            "The power consumption of a processor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which factor improves CPU performance?",
+        "options": [
+            "Higher clock speed",
+            "More cache memory",
+            "Efficient instruction pipelines",
+            "All of the above"
+        ],
+        "correctAnswer": 3
+    },
+     {
+        "question": "Which instruction transfers data from memory to a register?",
+        "options": [
+            "MOV",
+            "ADD",
+            "SUB",
+            "MUL"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is an arithmetic instruction?",
+        "options": [
+            "ADD",
+            "JUMP",
+            "STORE",
+            "FETCH"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does the SUB instruction do?",
+        "options": [
+            "Adds two numbers",
+            "Subtracts one number from another",
+            "Moves data between registers",
+            "Stores data in memory"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which operation does the MUL instruction perform?",
+        "options": [
+            "Division",
+            "Multiplication",
+            "Modulo",
+            "Bitwise AND"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the CMP instruction do?",
+        "options": [
+            "Compares two values",
+            "Copies data from one register to another",
+            "Moves data to memory",
+            "Performs logical AND operation"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which instruction is used for looping in assembly language?",
+        "options": [
+            "JMP",
+            "LOOP",
+            "PUSH",
+            "CALL"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the purpose of pipelining in a CPU?",
+        "options": [
+            "To slow down execution",
+            "To execute multiple instructions simultaneously",
+            "To increase memory size",
+            "To reduce power consumption"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which of the following can cause a pipeline stall?",
+        "options": [
+            "Data dependency",
+            "Cache memory",
+            "High clock speed",
+            "Branch prediction"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which technique helps to reduce branch penalties in a pipeline?",
+        "options": [
+            "Instruction caching",
+            "Branch prediction",
+            "Increasing register size",
+            "Using only RISC architecture"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the main function of cache memory?",
+        "options": [
+            "To store files permanently",
+            "To speed up access to frequently used data",
+            "To replace RAM",
+            "To act as an external hard drive"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which level of cache is the fastest?",
+        "options": [
+            "L1",
+            "L2",
+            "L3",
+            "Main Memory"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is cache hit?",
+        "options": [
+            "When requested data is found in cache",
+            "When the CPU fails to fetch data",
+            "When data is written to disk",
+            "When cache memory runs out"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is cache miss?",
+        "options": [
+            "When the CPU retrieves incorrect data",
+            "When data is not found in cache and must be fetched from main memory",
+            "When the CPU crashes",
+            "When RAM fails to function"
+        ],
+        "correctAnswer": 1
+    },
+     {
+        "question": "What is virtual memory used for?",
+        "options": [
+            "To expand RAM using disk storage",
+            "To store video files",
+            "To increase CPU speed",
+            "To replace cache memory"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is NOT a virtual memory technique?",
+        "options": [
+            "Paging",
+            "Segmentation",
+            "Cache blocking",
+            "Swapping"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the function of a system bus?",
+        "options": [
+            "Transfers data between CPU, memory, and peripherals",
+            "Increases cache size",
+            "Controls file systems",
+            "Optimizes power consumption"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What are the main types of system buses?",
+        "options": [
+            "Data bus, Address bus, Control bus",
+            "Internal bus, Network bus, Optical bus",
+            "Execution bus, Logical bus, Processor bus",
+            "Transfer bus, Storage bus, Instruction bus"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which generation of computers introduced microprocessors?",
+        "options": [
+            "1st Generation",
+            "2nd Generation",
+            "3rd Generation",
+            "4th Generation"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which technology was used in 1st generation computers?",
+        "options": [
+            "Vacuum tubes",
+            "Transistors",
+            "Integrated circuits",
+            "Microprocessors"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which technology was used in 2nd generation computers?",
+        "options": [
+            "Vacuum tubes",
+            "Transistors",
+            "Integrated circuits",
+            "Microprocessors"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which generation introduced AI-based systems?",
+        "options": [
+            "3rd Generation",
+            "4th Generation",
+            "5th Generation",
+            "6th Generation"
+        ],
+        "correctAnswer": 2
+    }
+    ]
     // Add more subjects and their questions here
 };
 
