@@ -1670,10 +1670,31 @@ function submitQuiz() {
 }
 
 function restartQuiz() {
-    document.getElementById('quiz-results').classList.add('hidden');
+    /*document.getElementById('quiz-results').classList.add('hidden');
     document.getElementById('quiz-settings').classList.remove('hidden');
     document.getElementById('timer-container').classList.add('hidden');
+    stopTimer();*/
+     console.log("Restarting the quiz..."); // Debugging log
+
+    // Reset quiz variables
+    selectedQuestions = [];
+    userAnswers = [];
+    currentQuestionIndex = 0;
+
+    // Reset UI visibility
+    document.getElementById('quiz-results').classList.add('hidden');
+    document.getElementById('quiz-container').classList.add('hidden');
+    document.getElementById('quiz-navigation').classList.add('hidden');
+    document.getElementById('quiz-settings').classList.remove('hidden');
+    document.getElementById('timer-container').classList.add('hidden');
+
+    // Reset score display
+    document.getElementById('score').innerText = "";
+    document.getElementById('correct-answers').innerHTML = "";
+
+    // Stop timer if running
     stopTimer();
+    console.log("Quiz has been reset.");
 }
 
 function startTimer(seconds) {
